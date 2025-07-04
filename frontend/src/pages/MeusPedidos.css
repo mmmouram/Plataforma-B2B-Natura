@@ -1,0 +1,28 @@
+.meus-pedidos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.meus-pedidos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.meus-pedidos li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.meus-pedidos li:hover {
+  background-color: #f0f0f0;
+}
+
+.mensagem-erro {
+  color: red;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+.detalhe-pedido {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.detalhe-pedido button.botao-chamado {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.detalhe-pedido button.botao-chamado:hover {
+  background-color: #0056b3;
+}
+
+.mensagem-sucesso {
+  color: green;
+  margin-top: 15px;
+}
+
+.mensagem-erro {
+  color: red;
+  margin-top: 15px;
+}
